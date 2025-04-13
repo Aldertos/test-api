@@ -10,4 +10,4 @@ headers = {
 }
 
 response = requests.get(api_url, headers=headers)
-print(response.text)
+print(f"Api isteği: {response.text}")
